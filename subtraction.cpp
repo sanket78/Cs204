@@ -176,11 +176,13 @@ return(1);}*/
 
 
 int main()
-{
-    string s1,s2,s3;
+{int k,t;
+ cin>>t;
+ for(k=0;k<t;k++)
+ {    string s1,s2,s3;
 cin>>s1>>s2;
 s3=sub(s1,s2);
-cout<<s3;
+cout<<s3<<endl;}
 
   
 }
