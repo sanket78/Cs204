@@ -176,13 +176,16 @@ return(1);}*/
 
 
 int main()
-{
+{int t,k;
+ cin>>t;
+ for(k=0;k<t;k++)
+ {
 string s1,s2,s3;
 
 cin>>s1>>s2;
 s3=divide(s1,s2);
 cout<<s3<<endl;
-cout<<s12<<endl;
+cout<<s12<<endl;}
 
 
   
