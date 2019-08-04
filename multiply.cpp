@@ -176,13 +176,16 @@ return(1);}*/
 
 
 int main()
-{int i=0;
-string s1,s2;
+{int i=0,k,t;
+ cin>>t;
+ for(k=0;k<t;k++)
+ {string s1,s2;
 
 cin>>s1>>s2;
 vector<int> x=mul(s1,s2);
 for(i=0;i<x.size();i++)
 cout<<x[i];
+ cout<<endl;}
 
   
 }
