@@ -199,9 +199,9 @@ cout<<"neither prime nor composite"<<endl;
 if(s1==s3)
 cout<<"1"<<endl;
 else
-{  if(isprime==0)
+{  if(isprime(s1)==0)
 cout<<"Composite"<<endl;
-if(isprime==1)
+if(isprime(s1)==1)
 cout<<"Prime"<<endl;}}
   
 }
