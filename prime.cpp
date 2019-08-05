@@ -187,8 +187,10 @@ return(1);}
 
 
 int main()
-{
-    string s1,s2="",s3="";
+{int k,l;
+ cin>>l;
+ for(k=0;k<l;k++)
+ {   string s1,s2="",s3="";
 cin>>s1;
 s2.push_back('1');
 s3.push_back('2');
@@ -197,6 +199,9 @@ cout<<"neither prime nor composite"<<endl;
 if(s1==s3)
 cout<<"1"<<endl;
 else
-cout<<isprime(s1);
+{  if(isprime==0)
+cout<<"Composite"<<endl;
+if(isprime==1)
+cout<<"Prime"<<endl;}}
   
 }
